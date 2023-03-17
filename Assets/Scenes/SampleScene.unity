@@ -808,7 +808,10 @@ MonoBehaviour:
   _scaleTime: 0.25
   _hitEffectPrefab: {fileID: 8648321306593218101, guid: 6133ac2f43de3b14e933b000b9592bf9,
     type: 3}
+  _chunkPrefab: {fileID: 6029527423293193074, guid: 016c5c5fc6f182e4cbe98765ca2b20df,
+    type: 3}
   _resources: {fileID: 1172123483}
+  _cubeRenderer: {fileID: 1633610928}
 --- !u!65 &175574622
 BoxCollider:
   m_ObjectHideFlags: 0

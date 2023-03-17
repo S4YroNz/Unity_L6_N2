@@ -1,3 +1,4 @@
+using Mono.Cecil.Cil;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,6 +17,10 @@ public class Interaction : MonoBehaviour
                 if (Input.GetMouseButtonDown(0)) {
                     clickable.Hit();
                 }
+            }
+            if (hit.collider.TryGetComponent(out Chunk chunk))
+            {
+                chunk.Hit();
             }
         }
 
